@@ -1,0 +1,10 @@
+I, [2015-07-20T11:11:59.972794 #70190]  INFO -- : listening on addr=/Users/jgluck/src/interview/train_redirect/tmp/sockets/unicorn.sock fd=10
+I, [2015-07-20T11:11:59.973264 #70190]  INFO -- : worker=0 spawning...
+I, [2015-07-20T11:11:59.973906 #70190]  INFO -- : worker=1 spawning...
+I, [2015-07-20T11:11:59.974446 #70190]  INFO -- : master process ready
+I, [2015-07-20T11:11:59.974638 #70191]  INFO -- : worker=0 spawned pid=70191
+I, [2015-07-20T11:11:59.975057 #70191]  INFO -- : Refreshing Gem list
+I, [2015-07-20T11:11:59.975202 #70192]  INFO -- : worker=1 spawned pid=70192
+I, [2015-07-20T11:11:59.975571 #70192]  INFO -- : Refreshing Gem list
+I, [2015-07-20T11:12:00.252516 #70192]  INFO -- : worker=1 ready
+I, [2015-07-20T11:12:00.252516 #70191]  INFO -- : worker=0 ready
