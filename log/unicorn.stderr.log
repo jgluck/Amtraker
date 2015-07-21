@@ -8,3 +8,40 @@ I, [2015-07-20T11:11:59.975202 #70192]  INFO -- : worker=1 spawned pid=70192
 I, [2015-07-20T11:11:59.975571 #70192]  INFO -- : Refreshing Gem list
 I, [2015-07-20T11:12:00.252516 #70192]  INFO -- : worker=1 ready
 I, [2015-07-20T11:12:00.252516 #70191]  INFO -- : worker=0 ready
+I, [2015-07-21T13:01:07.542929 #84670]  INFO -- : unlinking existing socket=/Users/jgluck/src/interview/train_redirect/tmp/sockets/unicorn.sock
+I, [2015-07-21T13:01:07.544304 #84670]  INFO -- : listening on addr=/Users/jgluck/src/interview/train_redirect/tmp/sockets/unicorn.sock fd=9
+I, [2015-07-21T13:01:07.545296 #84670]  INFO -- : listening on addr=0.0.0.0:9292 fd=10
+I, [2015-07-21T13:01:07.545396 #84670]  INFO -- : worker=0 spawning...
+I, [2015-07-21T13:01:07.546240 #84670]  INFO -- : worker=1 spawning...
+I, [2015-07-21T13:01:07.546631 #84670]  INFO -- : master process ready
+I, [2015-07-21T13:01:07.547167 #84671]  INFO -- : worker=0 spawned pid=84671
+I, [2015-07-21T13:01:07.547585 #84671]  INFO -- : Refreshing Gem list
+I, [2015-07-21T13:01:07.547448 #84672]  INFO -- : worker=1 spawned pid=84672
+I, [2015-07-21T13:01:07.547841 #84672]  INFO -- : Refreshing Gem list
+I, [2015-07-21T13:01:07.615008 #84672]  INFO -- : worker=1 ready
+I, [2015-07-21T13:01:07.616436 #84671]  INFO -- : worker=0 ready
+I, [2015-07-21T13:01:14.375116 #84670]  INFO -- : reaped #<Process::Status: pid 84672 exit 0> worker=1
+I, [2015-07-21T13:01:14.375229 #84670]  INFO -- : reaped #<Process::Status: pid 84671 exit 0> worker=0
+I, [2015-07-21T13:01:14.375629 #84670]  INFO -- : master complete
+I, [2015-07-21T13:01:16.303294 #84730]  INFO -- : unlinking existing socket=/Users/jgluck/src/interview/train_redirect/tmp/sockets/unicorn.sock
+I, [2015-07-21T13:01:16.303759 #84730]  INFO -- : listening on addr=/Users/jgluck/src/interview/train_redirect/tmp/sockets/unicorn.sock fd=10
+I, [2015-07-21T13:01:16.304370 #84730]  INFO -- : listening on addr=0.0.0.0:9292 fd=11
+I, [2015-07-21T13:01:16.304617 #84730]  INFO -- : worker=0 spawning...
+I, [2015-07-21T13:01:16.305260 #84730]  INFO -- : worker=1 spawning...
+I, [2015-07-21T13:01:16.305910 #84730]  INFO -- : master process ready
+I, [2015-07-21T13:01:16.306244 #84731]  INFO -- : worker=0 spawned pid=84731
+I, [2015-07-21T13:01:16.306752 #84731]  INFO -- : Refreshing Gem list
+I, [2015-07-21T13:01:16.306966 #84732]  INFO -- : worker=1 spawned pid=84732
+I, [2015-07-21T13:01:16.307411 #84732]  INFO -- : Refreshing Gem list
+I, [2015-07-21T13:01:16.386104 #84731]  INFO -- : worker=0 ready
+I, [2015-07-21T13:01:16.386104 #84732]  INFO -- : worker=1 ready
+127.0.0.1 - - [21/Jul/2015:13:01:21 -0400] "GET / HTTP/1.1" 200 329 0.0449
+127.0.0.1 - - [21/Jul/2015:13:01:21 -0400] "GET /styles.css HTTP/1.1" 302 - 0.0231
+127.0.0.1 - - [21/Jul/2015:13:01:22 -0400] "GET /favicon.ico HTTP/1.1" 302 - 0.0095
+127.0.0.1 - - [21/Jul/2015:13:01:41 -0400] "GET /1024 HTTP/1.1" 302 - 0.0017
+127.0.0.1 - - [21/Jul/2015:13:01:43 -0400] "GET /favicon.ico HTTP/1.1" 302 - 0.0010
+D, [2015-07-21T14:53:43.696903 #84730] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2015-07-21T15:06:21.818563 #84730] DEBUG -- : waiting 16.0s after suspend/hibernation
+127.0.0.1 - - [21/Jul/2015:16:06:22 -0400] "GET / HTTP/1.1" 200 329 0.0343
+127.0.0.1 - - [21/Jul/2015:16:06:22 -0400] "GET /styles.css HTTP/1.1" 302 - 0.0021
+127.0.0.1 - - [21/Jul/2015:16:06:23 -0400] "GET /favicon.ico HTTP/1.1" 302 - 0.0013
